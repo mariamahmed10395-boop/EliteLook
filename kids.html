@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aura — Kids</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="announcement-bar">
+      
+    </div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">Aura</a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="women.html">Women</a>
+          <a href="men.html">Men</a>
+          <a href="kids.html">Kids</a>
+          <a href="tryon.html">Try On</a>
+          <a href="login.html" data-account-link>👤</a>
+          <button type="button" class="cart-link" data-cart-trigger>Cart <span class="cart-badge" data-cart-badge>0</span></button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <h1 data-page-heading>Kids' Collection</h1>
+          <p>Play-ready layers, soft fabrics, and joyful color for every little adventure.</p>
+        </div>
+      </section>
+
+      <nav class="subnav-strip" aria-label="Collection subsections">
+        <div class="container">
+          <a href="#kids-clothes">Clothes</a>
+          <a href="#kids-shoes">Shoes</a>
+        </div>
+      </nav>
+
+      <section class="section">
+        <div class="container">
+          <section id="kids-clothes" class="collection-section">
+            <h3 class="subsection-heading">Kids' Clothes</h3>
+            <div id="kids-clothes-grid" class="product-grid"></div>
+          </section>
+
+          <section id="kids-shoes" class="collection-section">
+            <h3 class="subsection-heading">Kids' Shoes</h3>
+            <div id="kids-shoes-grid" class="product-grid"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Aura</h3>
+          <p>Modern staples for real life — thoughtful fits, trusted quality, and a polished look from day to night.</p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <a href="women.html">Women</a><br />
+          <a href="men.html">Men</a><br />
+          <a href="kids.html">Kids</a>
+        </div>
+        <div>
+          <h3>Support</h3>
+          <a href="login.html">Account</a><br />
+          <a href="tryon.html">Virtual try-on</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
